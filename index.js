@@ -1,10 +1,14 @@
 // Declaring dependencies
+const fs = require("fs");
+const util = require("util");
 const inquirer = require("inquirer");
 const generateReadme = require("./utils/generateReadme");
+const writeFileAsync = util.promisify(fs.writeFile);
 
-// TODO: Create an array of questions for user input
-inquirer
-    .prompt([
+
+// Prompt the user with questions to populate the README.md
+function promptUser() {
+    return inquirer.prompt([
         {
             type: "input",
             name: "projectTitle",
@@ -65,12 +69,19 @@ inquirer
             message: "Please enter your email: "
         }
     ]);
-    
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+}
 
-// TODO: Create a function to initialize app
-function init() {}
+// Async function using util.promisify
+async function init() {
+    try {
+        const answers = await promptUser();
+        const generateContent = generateReadme(answers);
+        await writeFileAsync('./dist/README.md', generateContent);
+        console.log('Successfully wrote to README.md')
+    }   catch(err) {
+        console.log(err);
+    }
+}
 
-// Function call to initialize app
+// Initialize app
 init();
