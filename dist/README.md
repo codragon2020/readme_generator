@@ -1,10 +1,10 @@
 
-  <h1 align="center">README Generator (Node.js) 👋</h1>
+  <h1 align="center">README Generator 👋</h1>
 
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
   ## Description
-🔍 Node.js application that creates a README.md file to the dist directory
+🔍 Node.js README Generator
 
   ## Table of Contents
   - [Description](#description)
@@ -16,10 +16,10 @@
   - [Questions](#questions)
 
   ## Installation
-  💾 "npm i inquirer" is required; "node LTS" or latest is recommended
+  💾 npn i inquirer
 
   ## Usage
-  💻 UR Fullstack Coding Bootcamp
+  💻 UR FullStack Bootcamp
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
@@ -30,10 +30,10 @@
   👪 Jason McGinthy
 
   ## Tests
-  ✏️ no tests included
+  ✏️ no
 
   ## Questions
-  ✋ email me or submit an issue in Github<br />
+  ✋ Submit a Github issue or email me directly<br />
   <br />
 
   :octocat: Find me on GitHub: [codragon2020](https://github.com/codragon2020)<br />
