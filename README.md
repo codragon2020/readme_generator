@@ -10,7 +10,7 @@
 
 ![Video of README Generator](./utils/README-Generator.gif)
 
-[Full Length video](./utils/README-Generator.mp4)
+[Full Length video](https://drive.google.com/file/d/1x5mSvBlyfAC0s3V9aa2JaPNq_F5pdhPi/view?usp=sharing)
 
 ## Table of Contents
 - [Description](#description)
