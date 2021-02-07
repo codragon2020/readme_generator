@@ -27,7 +27,21 @@ function promptUser() {
         {
             type: "input",
             name: "usage",
-            message: "What is this project usage for?"
+            message: "What is this project used for?"
+        },
+        {
+            type: "checkbox",
+            name: "techstack",
+            message: "Choose the technologies used",
+            choices: [
+                "HTML",
+                "CSS",
+                "React",
+                "JavaScript",
+                "Node",
+                "Express",
+                "MySQL"
+            ]
         },
         {
             type: "list",

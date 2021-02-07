@@ -21,7 +21,9 @@ function generateReadme(answers) {
   💾 ${answers.installation}
 
   ## Usage
-  💻 ${answers.usage}
+  📌 ${answers.usage}
+  <br />
+  💻 ${answers.techstack}
 
   ## License
   ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
@@ -35,12 +37,16 @@ function generateReadme(answers) {
   ✏️ ${answers.tests}
 
   ## Questions
-  ✋ ${answers.questions}<br />
+  ✋ ${answers.questions}
+  <br />
   <br />
 
-  :octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
+  :octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})
   <br />
-  ✉️ Email me with any questions: ${answers.email}<br /><br />
+  <br />
+  ✉️ Email me with any questions: ${answers.email}
+  <br />
+  <br />
 
   _This README was generated with ❤️ by [README-generator](https://github.com/codragon2020/readme_generator) 🔥🔥🔥_
 

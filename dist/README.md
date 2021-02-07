@@ -1,10 +1,10 @@
 
-  <h1 align="center">README Generator using Node.js 👋</h1>
+  <h1 align="center">Test 👋</h1>
 
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
   ## Description
-🔍 A node.js application that creates a generated README.md file to the dist directory
+🔍 test
 
   ## Table of Contents
   - [Description](#description)
@@ -16,10 +16,11 @@
   - [Questions](#questions)
 
   ## Installation
-  💾 npm i inquirer (required)
+  💾 test
 
   ## Usage
-  💻 UR Full Stack Coding Bootcamp
+  📌 test
+  💻 HTML,React,JavaScript
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
@@ -27,18 +28,18 @@
   This application is covered by the MIT license. 
 
   ## Contributing
-  👪 Jason McGinthy
+  👪 test
 
   ## Tests
-  ✏️ no tests
+  ✏️ no
 
   ## Questions
-  ✋ Submit a Github issue or email me directly<br />
+  ✋ test<br />
   <br />
 
-  :octocat: Find me on GitHub: [codragon2020](https://github.com/codragon2020)<br />
+  :octocat: Find me on GitHub: [test](https://github.com/test)<br />
   <br />
-  ✉️ Email me with any questions: jasonmcginthy@gmail.com<br /><br />
+  ✉️ Email me with any questions: test<br /><br />
 
   _This README was generated with ❤️ by [README-generator](https://github.com/codragon2020/readme_generator) 🔥🔥🔥_
 
